@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SEO acisindan onemli (165 karater uzunluğunda bir aciklama) -->
     <meta name="description" content="Dünyanın en iyi kalemleri cw-kalem" />
+    <!-- Title'ın yanindaki logo icin favicon kullanilir. -->
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+
+    <!-- HTML kodunuz stillendirme dosyasi ile baglantisi -->
+    <link rel="stylesheet" href="stil.css" />
+
+    <style>
+      /* internal CSS */
+      .par {
+        /* class ile erisim */
+        color: red;
+        background-color: white;
+      }
+      #container {
+        /* id ile erisim */
+        border: 2px solid yellowgreen;
+      }
+    </style>
 
     <title>Recap</title>
   </head>
@@ -16,5 +33,26 @@
     <h4>Bu bir H4 etiketidir</h4>
     <h5>Bu bir H5 etiketidir</h5>
     <h6>Bu bir H6 etiketidir</h6>
+
+    <div id="container">
+      <p class="par">
+        Lorem ipsum dolor, sit amet consectetur adipiscing elit. Dolorum a
+        laboriosam, molestias omnis delectus eveniet praesentium accusamus
+        architecto tempora ipsa ipsum voluptatem voluptate esse reprehenderit
+        voluptas cumque hic sapiente illo .
+      </p>
+
+      <!-- Inline CSS -->
+      <p style="color: blueviolet; background-color: beige">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. Provident
+        placeat possimus aspernatur qui itaque porro fugiat deserunt excepturi
+        assumenda accusantium?
+      </p>
+
+      <p class="par">
+        Lorem, ipsum dolor sit amet consectetur adipiscing elit. At vero
+        distinctio laudantium? Ratione, asperiores?
+      </p>
+    </div>
   </body>
 </html>
